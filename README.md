@@ -9,6 +9,7 @@
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
 | Mereum Fernando | @MereumF | Built Navier Bayes model |
+| Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree Models|
 | Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
 | Charlie Nguyen | @CharlieN | Implemented explainability tools |
 | Charlie Nguyen | @CharlieN | Implemented explainability tools |
