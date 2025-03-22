@@ -87,15 +87,9 @@ This project was a submission to the WiDS Datathon 2025. The Break Through Tech 
 
 ## **🖼️ Impact Narrative**
 
-**Answer the relevant questions below based on your competition:**
+Some of the brain activity patterns associated with ADHD include deficits in the prefrontal cortex and various disruptions in areas that are part of the default mode network. However, these prefrontal cortex deficits are often more common in males, while the DMN alterations might be more common in females. In males, the brain activity patterns might lead to more hyperactivity due to changes in executive areas, while in females, more connectivity in the DMN and some emotion-processing regions is likely to lead to different symptoms, often more inattentive-type ADHD or anxiety and depression.
 
-**WiDS challenge:**
-
-1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
-2. How could your work help contribute to ADHD research and/or clinical care?
-
-1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones)
-2. What broader impact could your work have?
+This work can contribute by helping to find some of these differences. Since large swaths of ADHD research have historically been focused on males, bringing attention to the brain activity patterns of females with ADHD could help close the gap in diagnosis and fix the system issues that have led to a lack of attention for women with ADHD.
 
 ---
 
