@@ -5,12 +5,13 @@
 ---
 
 ### **👥 Team Members**
-
-| Name | GitHub Handle | Contribution |
-| Mereum Fernando | @MereumF | Built Navier Bayes model |
-| Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree Models |
-| Olive Arderius | @freshPressedOlive | Built GNN model |
-| Charlie Nguyen | @CharlieN | Implemented explainability tools |
+ 
+ | Name | GitHub Handle | Contribution |
+ | ----- | ----- | ----- |
+ | Mereum Fernando | @MereumF | Built Navier Bayes model |
+ | Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree Models |
+ | Olive Arderius | @freshPressedOlive | Built GNN model |
+ | Charlie Nguyen | @CharlieN | Implemented explainability tools |
 
 ---
 
