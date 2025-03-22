@@ -7,11 +7,9 @@
 ### **👥 Team Members**
 
 | Name | GitHub Handle | Contribution |
-| ----- | ----- | ----- |
 | Mereum Fernando | @MereumF | Built Navier Bayes model |
-| Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree Models|
-| Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
-| Charlie Nguyen | @CharlieN | Implemented explainability tools |
+| Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree Models |
+| Olive Arderius | @freshPressedOlive | Built GNN model |
 | Charlie Nguyen | @CharlieN | Implemented explainability tools |
 
 ---
@@ -43,11 +41,7 @@
 
 ## **🏗️ Project Overview**
 
-**Describe:**
-
-* The Kaggle competition and its connection to the Break Through Tech AI Program
-* The objective of the challenge
-* The real-world significance of the problem and the potential impact of your work
+This project was a submission to the WiDS Datathon 2025. The Break Through Tech AI Program, a program sponsored by Cornell Tech, entered its participants into this Kaggle competition as part of its curriculum with the goal of improving machine learning skills and helping with the challenge itself. The objective of the challenge was to use machine learning to predict an individual’s sex and ADHD diagnosis. As girls with ADHD are more likely to go undiagnosed, an ML model that can predict both sex and ADHD based on brain scans could be extremely helpful in piecing together the factors that lead to ADHD and how they relate to an individual’s gender. Early diagnoses can make a huge difference in treatment, and being able to accurately predict ADHD could help girls get the diagnoses they need when doctors may otherwise wave their symptoms away.
 
 ---
 
