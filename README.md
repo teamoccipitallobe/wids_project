@@ -1,7 +1,5 @@
 # WiDS Datathon 2025: Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
 
-⚠️ _Remember to update the above title and remove all guidance notes and examples in this template, before finalizing your README_
-
 ---
 
 ### **👥 Team Members**
@@ -11,7 +9,7 @@
  | Mereum Fernando | @MereumF | Built Navier Bayes model |
  | Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree Models |
  | Olive Arderius | @freshPressedOlive | Built GNN model |
- | Charlie Nguyen | @CharlieN | Implemented explainability tools |
+ | Neha Konduru | @nehark04 | Build LightGBM model |
 
 ---
 
