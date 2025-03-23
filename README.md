@@ -6,8 +6,8 @@
  
  | Name | GitHub Handle | Contribution |
  | ----- | ----- | ----- |
- | Mereum Fernando | @MereumF | Built Navier Bayes model |
- | Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree Models |
+ | Mereum Fernando | @MereumF | Built Naive Bayes model |
+ | Tumi Fadare | @TumiFadare | Built Random Forest and Decision Tree models |
  | Olive Arderius | @freshPressedOlive | Built GNN model |
  | Neha Konduru | @nehark04 | Build LightGBM model |
 
