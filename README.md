@@ -105,4 +105,220 @@ This work can contribute by helping to find some of these differences. Since lar
 
 * Cite any relevant papers, articles, or tools used in your project
 
+
+
+WiDS Datathon 2025: Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
+
+Name
+GitHub Handle
+Contribution
+Mereum Fernando
+@MereumF
+Built Naive Bayes model
+Tumi Fadare
+@TumiFadare
+Built Random Forest and Decision Tree models
+Olive Arderius
+@freshPressedOlive
+Built GNN model
+Neha Konduru
+@nehark04
+Built LightGBM model
+
+👥 Team Members
+🎯 Project Highlights
+Developed and trained multiple machine learning models (Random Forest, Decision Tree, Naive Bayes, GNN, LightGBM) to predict an individual’s sex and ADHD diagnosis based on brain scans.
+
+
+Achieved an F1 score of 0.73645 and ranked 8th place on the Kaggle Leaderboard.
+
+
+Utilized SHAP (SHapley Additive Explanations) and LIME (Local Interpretable Model-Agnostic Explanations) for model interpretability.
+
+
+Applied feature engineering techniques such as PCA (Principal Component Analysis) and feature selection to optimize model performance.
+
+
+Implemented data preprocessing including normalization, handling missing values, and balancing classes using SMOTE (Synthetic Minority Over-sampling Technique).
+
+
+🔗 WiDS Datathon 2025 | Kaggle Competition Page
+
+👩‍💻 Setup & Execution
+To Reproduce Our Results:
+Clone the Repository:
+
+ git clone https://github.com/[YourRepo]/WiDS-2025-ADHD.git
+cd WiDS-2025-ADHD
+
+
+Install Dependencies:
+
+ pip install -r requirements.txt
+
+
+Set Up the Environment:
+
+
+Ensure you have Python 3.8+
+
+
+Use Jupyter Notebook or VS Code for running experiments
+
+
+Access the Dataset:
+
+
+Download dataset from Kaggle and place it in the data/ directory.
+
+
+Run the Notebooks or Scripts:
+
+ python train_models.py
+
+
+
+🏐 Project Overview
+This project was a submission to the WiDS Datathon 2025, as part of the Break Through Tech AI Program at Cornell Tech. The competition aimed to use machine learning to predict an individual’s sex and ADHD diagnosis based on brain scans. Since girls with ADHD often go undiagnosed, an ML model capable of distinguishing these patterns could assist in earlier and more accurate diagnoses, ultimately improving treatment outcomes.
+
+📊 Data Exploration
+Dataset Details:
+Source: Kaggle competition dataset (brain scan data)
+
+
+Features: Neuroimaging biomarkers, cognitive test scores, demographic information
+
+
+Target Variables: Sex (Male/Female), ADHD Diagnosis (Yes/No)
+
+
+Data Preprocessing:
+Handled missing values with mean/mode imputation.
+
+
+Applied feature scaling (StandardScaler/MinMaxScaler) for numerical variables.
+
+
+Converted categorical data using one-hot encoding.
+
+
+Balanced the dataset using SMOTE.
+
+
+Visualizations:
+Correlation heatmap to identify relationships between features.
+
+
+Histogram distributions for numerical variables.
+
+
+T-SNE/PCA visualizations to analyze separability in high-dimensional data.
+
+
+
+🧠 Model Development
+Models Implemented:
+Random Forest & Decision Tree: Built for explainability and feature importance analysis.
+
+
+Naive Bayes: A simple probabilistic model for baseline comparison.
+
+
+Graph Neural Network (GNN): Used to capture relational structures in brain networks.
+
+
+LightGBM: Optimized for performance with hyperparameter tuning.
+
+
+Feature Selection & Tuning:
+Used Recursive Feature Elimination (RFE) and SHAP values to select key predictors.
+
+
+Tuned hyperparameters with GridSearchCV and Optuna.
+
+
+Split data into 80% training / 20% validation.
+
+
+
+📈 Results & Key Findings
+Performance Metrics:
+Model
+F1 Score
+Random Forest
+0.69903
+Decision Tree
+TBD
+Naive Bayes
+TBD
+GNN
+TBD
+LightGBM
+TBD
+
+Insights:
+LightGBM outperformed other models in both accuracy and F1 score.
+
+
+The GNN model provided unique insights by leveraging brain connectivity data.
+
+
+Feature importance analysis revealed that specific brain regions played a critical role in ADHD prediction.
+
+
+Visualizations:
+Confusion Matrix
+
+
+Precision-Recall Curve
+
+
+SHAP Summary Plot
+
+
+
+🎨 Impact Narrative
+Research indicates that ADHD manifests differently in males and females, with prefrontal cortex deficits more common in males and default mode network (DMN) alterations more prevalent in females. Our work contributes to bridging this knowledge gap by identifying key neurobiological markers associated with ADHD in females.
+By improving diagnostic accuracy for ADHD in girls, our model could lead to:
+More timely interventions and personalized treatment.
+
+
+Greater awareness in the medical community about gender differences in ADHD.
+
+
+Advancing research into sex-based neurodevelopmental variations.
+
+
+
+🚀 Next Steps & Future Improvements
+Enhance Data Augmentation: Apply synthetic data techniques to improve model robustness.
+
+
+Ensemble Models: Combine multiple models to boost accuracy.
+
+
+Fine-tune Deep Learning Approaches: Experiment with transformers for medical data.
+
+
+Ethical Considerations: Conduct fairness audits to ensure unbiased predictions.
+
+
+
+📝 References & Additional Resources
+ADHD and Neuroimaging Studies: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981111/
+
+
+SHAP for Explainability: https://shap.readthedocs.io/en/latest/
+
+
+LIME for Model Interpretability: https://github.com/marcotcr/lime
+
+
+Kaggle Competition Page: https://www.kaggle.com/competitions/widsdatathon2025/submissions
+
+
+
+This document outlines our WiDS Datathon 2025 submission and serves as a comprehensive guide for reproducing and understanding our approach to ADHD prediction through machine learning.
+
+
 ---
